@@ -35,7 +35,7 @@ Each folder or file represents a separate exercise or concept, including:
 2. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/Upskilling-in-CSharp.git
+git clone https://github.com/diedericksyousha-collab/Upskilling-in-CSharp.git
 ```
 
 3. Navigate into the project folder:
