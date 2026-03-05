@@ -6,6 +6,11 @@ namespace Program
     {
         static void Main(string [] args)
         {
+            bool isRunning;
+
+            while (isRunning = true)
+            {
+
             Console.WriteLine("Welcome to the calculator, please enter your first digit: ");
             int x = int.Parse(Console.ReadLine());
 
@@ -19,22 +24,27 @@ namespace Program
 
             if(sign == '-')
             {
-                Console.WriteLine(x - y);                
+                Console.WriteLine(x - y);
+                isRunning = true;        
             }
 
             else if(sign == '+')
             {
                 Console.WriteLine(x + y);
+                isRunning = true;
             }
 
             else if(sign == '/')
             {
                 Console.WriteLine(x / y);
+                isRunning = true;
             }
 
             else if(sign == '*')
             {
                 Console.WriteLine(x * y);
+                isRunning = true;
+            }
             }
         }
     }
