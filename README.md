@@ -12,6 +12,7 @@ This project contains exercises, mini-projects, and practice programs created wh
 * Console applications
 * Problem-solving techniques
 * .NET basics
+* Cleaner C# Code
 
 The goal is continuous improvement through hands-on coding.
 
